@@ -8,11 +8,9 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-   <form method="POST">
+     <form method="POST">
      	 <fieldset>
      	 	   <legend>Job Application Form</legend>
-
-               
                <br/>
      	 	   <label for="name">Name:* </label>
      	 	   <input type="text" name="name" id="name" required/>
@@ -24,21 +22,20 @@
      	 	   <br/>
      	 	   <br/>
 
-     	 	   <label for="Gender">Gender:* </label>
+     	 	   <label for="gender">Gender:* </label>
      	 	   <input type="radio" name="gender" value="m" required/> Male
      	 	   <input type="radio" name="gender" value="f" required/>Female
      	 	   <input type="radio" name="gender" value="o" required/>Others
      	 	   <br/>
      	 	   <br/>
 
-     	 	   <!-- <label for="laptop">Laptop Brands: </label> -->
-     	 	   <select for="laptop" id="laptop"> Laptop Brands
-     	 	   	     <option>-----Select-----</option>
-     	 	   	     <option>Apple</option>
-     	 	   	     <option>Asus</option>
-     	 	   	     <option>HP</option>
-     	 	   </select>
-
+     	 	   <label for="laptops">Laptop Brands: </label>
+                   <select id="laptop">
+                      <option>------Select your Laptop------</option>
+                      <option>Apple</option>
+                      <option>Asus</option>
+                      <option>HP</option>
+                   </select>
      	 	   <br/>
      	 	   <br/>
 
@@ -58,7 +55,8 @@
      	 	   <br/>
 
      	 	   <label for="portfolio">Portfolio URL: </label>
-               <input type="url" name="portfolio" id="portfolio"  required/>
+               <input type="url" name="portfolio" id="portfolio"/>
+
                <br/>
      	 	   <br/>
 
@@ -67,8 +65,8 @@
      	 	   <br/>
 
      	 </fieldset>
-     </form>        
 
+     </form>  
 	
     <script type="text/javascript" src="./script.js">
 </script>
